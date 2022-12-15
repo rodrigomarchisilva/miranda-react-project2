@@ -11,13 +11,15 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:prettier/recommended',
   ],
+  globals: {
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+  },
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
+    ecmaFeatures: { jsx: true },
+    ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react'],
-  rules: {},
+  plugins: ['react', 'react-hooks', 'prettier'],
+  rules: { 'react/react-in-jsx-scope': 'off' },
 };
