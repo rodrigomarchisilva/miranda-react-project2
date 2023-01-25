@@ -31,8 +31,7 @@
 
 ### :desktop_computer: Deploy link
 
-- Coming soon
-<!-- [https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/) -->
+[https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/)
 
 ### :deciduous_tree: Development environment
 
@@ -163,14 +162,13 @@
 - Coming soon
 <!-- ![Responsiveness](src/gifs/miranda-react-project2-responsiveness.gif) -->
 
-> The app is responsive across all resolutions.
+<!-- > The app is responsive across all resolutions. -->
 
 ## :brazil: Português
 
 ### :desktop_computer: Link do deploy
 
-- Em breve
-<!-- [https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/) -->
+[https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/)
 
 ### :deciduous_tree: Ambiente de desenvolvimento
 
@@ -291,4 +289,4 @@
 - Em breve
 <!-- ![Responsiveness](src/gifs/miranda-react-project2-responsiveness.gif) -->
 
-> A aplicação é responsiva, e se adapta a qualquer tamanho de tela.
+<!-- > A aplicação é responsiva, e se adapta a qualquer tamanho de tela. -->
