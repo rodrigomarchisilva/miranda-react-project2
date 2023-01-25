@@ -1,91 +1,294 @@
-# Getting Started with Create React App
+<!-- markdownlint-disable MD004 MD007 MD048 MD033-->
 
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app).
+# :atom_symbol: Miranda React Project 2
 
-## Available Scripts
+## :open_book: Content (conteúdo)
 
-In the project directory, you can run:
+- [:atom\_symbol: Miranda React Project 2](#atom_symbol-miranda-react-project-2)
+  - [:open\_book: Content (conteúdo)](#open_book-content-conteúdo)
+  - [:us: English](#us-english)
+    - [:desktop\_computer: Deploy link](#desktop_computer-deploy-link)
+    - [:deciduous\_tree: Development environment](#deciduous_tree-development-environment)
+    - [:information\_source: Project info](#information_source-project-info)
+    - [:printer: Cloning the project and opening it on VSCode](#printer-cloning-the-project-and-opening-it-on-vscode)
+    - [:computer: How to run it locally](#computer-how-to-run-it-locally)
+    - [:whale2: How to run it through docker](#whale2-how-to-run-it-through-docker)
+    - [:whale: How to run it through docker-compose](#whale-how-to-run-it-through-docker-compose)
+    - [:house: Home page](#house-home-page)
+    - [:iphone: Responsiveness](#iphone-responsiveness)
+  - [:brazil: Português](#brazil-português)
+    - [:desktop\_computer: Link do deploy](#desktop_computer-link-do-deploy)
+    - [:deciduous\_tree: Ambiente de desenvolvimento](#deciduous_tree-ambiente-de-desenvolvimento)
+    - [:information\_source: Informações do projeto](#information_source-informações-do-projeto)
+    - [:printer: Clonando o projeto e abrindo no VSCode](#printer-clonando-o-projeto-e-abrindo-no-vscode)
+    - [:computer: Como rodar localmente](#computer-como-rodar-localmente)
+    - [:whale2: Como rodar através do docker](#whale2-como-rodar-através-do-docker)
+    - [:whale: Como rodar através do docker-compose](#whale-como-rodar-através-do-docker-compose)
+    - [:house: Página inicial](#house-página-inicial)
+    - [:iphone: Responsividade](#iphone-responsividade)
 
-### `npm start`
+## :us: English
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### :desktop_computer: Deploy link
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Coming soon
+<!-- [https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/) -->
 
-### `npm test`
+### :deciduous_tree: Development environment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests)
-for more information.
+| Tool                                               | Version  |
+| -------------------------------------------------- | -------- |
+| [Node](https://nodejs.org/en/)                     | 18.12.1  |
+| [Docker](https://www.docker.com/)                  | 20.10.20 |
+| [Docker Compose](https://docs.docker.com/compose/) | 2.12.0   |
 
-### `npm run build`
+### :information_source: Project info
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best
-performance.
+- **Why I did this project:** It was part of the React section of Luiz Otávio Miranda's course about React and Next.js;
+- **Core Technologies:** React and CSS;
+- **Secondary Technologies:** create-react-app and Docker (w/ compose);
+- **Description:** The goal of this project was to practice hooks and context API;
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :printer: Cloning the project and opening it on VSCode
 
-See the section about
-[deployment](https://facebook.github.io/create-react-app/docs/deployment) for
-more information.
+**Prerequisites:** You need to have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your computer;
 
-### `npm run eject`
+**1.** Clone the repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone git@github.com:rodrigomarchisilva/miranda-react-project2.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can
-`eject` at any time. This command will remove the single build dependency from
-your project.
+**2.** Open the project:
 
-Instead, it will copy all the configuration files and the transitive
-dependencies (webpack, Babel, ESLint, etc) right into your project so you have
-full control over them. All of the commands except `eject` will still work, but
-they will point to the copied scripts so you can tweak them. At this point
-you're on your own.
+```bash
+  cd miranda-react-project2
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for
-small and middle deployments, and you shouldn't feel obligated to use this
-feature. However we understand that this tool wouldn't be useful if you couldn't
-customize it when you are ready for it.
+**3.** Make sure you have VSCode installed and running:
 
-## Learn More
+```bash
+  code -v
+```
 
-You can learn more in the
-[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**4.** If not, download and install it:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Download VSCode](https://code.visualstudio.com/download)
 
-### Code Splitting
+**5.** Access it through VSCode:
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  code .
+```
 
-### Analyzing the Bundle Size
+### :computer: How to run it locally
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**1.** Install the dependencies:
 
-### Making a Progressive Web App
+```bash
+  npm install
+```
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**2.** Run the app:
 
-### Advanced Configuration
+```bash
+  npm start
+```
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### :whale2: How to run it through docker
 
-### Deployment
+**1.** Make sure you have Docker installed and running:
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+  docker -v
+```
 
-### `npm run build` fails to minify
+**2.** If not, download and install it:
 
-This section has moved here:
-[https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Download Docker](https://www.docker.com/products/docker-desktop)
+
+**3.** Build the image:
+
+```bash
+  docker build -t miranda-react-project2 .
+```
+
+**4.** Run the container:
+
+```bash
+  docker run -v ${PWD}:/app -v /app/node_modules -p 3000:3000 --rm miranda-react-project2
+```
+
+### :whale: How to run it through docker-compose
+
+**1.** Make sure you have Docker installed and running:
+
+```bash
+  docker -v
+```
+
+**2.** If not, download and install it:
+
+- [Download Docker](https://www.docker.com/products/docker-desktop)
+
+**3.** Make sure you have Docker Compose installed and running:
+
+```bash
+  docker-compose -v
+```
+
+**4.** If not, download and install it:
+
+- [Download Docker Compose](https://docs.docker.com/compose/install/)
+
+**5.** Run the container:
+
+```bash
+  npm run compose:up
+```
+
+**6.** Stop the container:
+
+```bash
+  npm run compose:down
+```
+
+### :house: Home page
+
+- Coming soon
+<!-- ![Home page](src/gifs/miranda-react-project2-home.gif) -->
+
+### :iphone: Responsiveness
+
+- Coming soon
+<!-- ![Responsiveness](src/gifs/miranda-react-project2-responsiveness.gif) -->
+
+> The app is responsive across all resolutions.
+
+## :brazil: Português
+
+### :desktop_computer: Link do deploy
+
+- Em breve
+<!-- [https://miranda-react-project2.netlify.app/](https://miranda-react-project2.netlify.app/) -->
+
+### :deciduous_tree: Ambiente de desenvolvimento
+
+| Ferramenta                                         | Versão   |
+| -------------------------------------------------- | -------- |
+| [Node](https://nodejs.org/en/)                     | 18.12.1  |
+| [Docker](https://www.docker.com/)                  | 20.10.20 |
+| [Docker Compose](https://docs.docker.com/compose/) | 2.12.0   |
+
+### :information_source: Informações do projeto
+
+- **Por que eu fiz esse projeto:** Foi parte da seção de React do curso de React e Next.js do Luiz Otávio Miranda;
+- **Tecnologias principais:** React (com componentes de classe, mas também componentes funcionais misturados para fins de aprendizado) e CSS;
+- **Tecnologias secundárias:** create-react-app e Docker (com compose);
+- **Descrição:** O objetivo desse projeto foi praticar hooks e context API;
+
+### :printer: Clonando o projeto e abrindo no VSCode
+
+**Pré-requisitos:** Você precisa ter o [Node.js](https://nodejs.org/en/) e o [Git](https://git-scm.com/) instalados no seu computador;
+
+**1.** Clone o repositório:
+
+```bash
+  git clone git@github.com:rodrigomarchisilva/miranda-react-project2.git
+```
+
+**2.** Abra o projeto:
+
+```bash
+  cd miranda-react-project2
+```
+
+**3.** Certifique-se de ter o VSCode instalado e rodando:
+
+```bash
+  code -v
+```
+
+**4.** Se não tiver, baixe e instale:
+
+- [Download VSCode](https://code.visualstudio.com/download)
+
+**5.** Acesse-o pelo VSCode:
+
+```bash
+  code .
+```
+
+### :computer: Como rodar localmente
+
+**1.** Instale as dependências:
+
+```bash
+  npm install
+```
+
+**2.** Rode o app:
+
+```bash
+  npm start
+```
+
+### :whale2: Como rodar através do docker
+
+**1.** Certifique-se de ter o Docker instalado e rodando:
+
+```bash
+  docker -v
+```
+
+**2.** Se não tiver, baixe e instale:
+
+- [Download Docker](https://www.docker.com/products/docker-desktop)
+
+**3.** Faça o build da imagem:
+
+```bash
+  docker build -t miranda-react-project2 .
+```
+
+**4.** Rode o container:
+
+```bash
+  docker run -v ${PWD}:/app -v /app/node_modules -p 3000:3000 --rm miranda-react-project2
+```
+
+### :whale: Como rodar através do docker-compose
+
+**1.** Certifique-se de ter o Docker Compose instalado e rodando:
+
+```bash
+  docker-compose -v
+```
+
+**2.** Se não tiver, baixe e instale:
+
+- [Download Docker Compose](https://docs.docker.com/compose/install/)
+
+**3.** Rode o container:
+
+```bash
+  npm run compose:up
+```
+
+**4.** Pare o container:
+
+```bash
+  npm run compose:down
+```
+
+### :house: Página inicial
+
+- Em breve
+<!-- ![Página inicial](src/gifs/miranda-react-project2-home.gif) -->
+
+### :iphone: Responsividade
+
+- Em breve
+<!-- ![Responsiveness](src/gifs/miranda-react-project2-responsiveness.gif) -->
+
+> A aplicação é responsiva, e se adapta a qualquer tamanho de tela.
