@@ -4,12 +4,12 @@
 
 ## :open_book: Content (conteúdo)
 
-- [:atom\_symbol: Miranda React Project 2](#atom_symbol-miranda-react-project-2)
-  - [:open\_book: Content (conteúdo)](#open_book-content-conteúdo)
+- [:atom_symbol: Miranda React Project 2](#atom_symbol-miranda-react-project-2)
+  - [:open_book: Content (conteúdo)](#open_book-content-conteúdo)
   - [:us: English](#us-english)
-    - [:desktop\_computer: Deploy link](#desktop_computer-deploy-link)
-    - [:deciduous\_tree: Development environment](#deciduous_tree-development-environment)
-    - [:information\_source: Project info](#information_source-project-info)
+    - [:desktop_computer: Deploy link](#desktop_computer-deploy-link)
+    - [:deciduous_tree: Development environment](#deciduous_tree-development-environment)
+    - [:information_source: Project info](#information_source-project-info)
     - [:printer: Cloning the project and opening it on VSCode](#printer-cloning-the-project-and-opening-it-on-vscode)
     - [:computer: How to run it locally](#computer-how-to-run-it-locally)
     - [:whale2: How to run it through docker](#whale2-how-to-run-it-through-docker)
@@ -17,9 +17,9 @@
     - [:house: Home page](#house-home-page)
     - [:iphone: Responsiveness](#iphone-responsiveness)
   - [:brazil: Português](#brazil-português)
-    - [:desktop\_computer: Link do deploy](#desktop_computer-link-do-deploy)
-    - [:deciduous\_tree: Ambiente de desenvolvimento](#deciduous_tree-ambiente-de-desenvolvimento)
-    - [:information\_source: Informações do projeto](#information_source-informações-do-projeto)
+    - [:desktop_computer: Link do deploy](#desktop_computer-link-do-deploy)
+    - [:deciduous_tree: Ambiente de desenvolvimento](#deciduous_tree-ambiente-de-desenvolvimento)
+    - [:information_source: Informações do projeto](#information_source-informações-do-projeto)
     - [:printer: Clonando o projeto e abrindo no VSCode](#printer-clonando-o-projeto-e-abrindo-no-vscode)
     - [:computer: Como rodar localmente](#computer-como-rodar-localmente)
     - [:whale2: Como rodar através do docker](#whale2-como-rodar-através-do-docker)
@@ -43,14 +43,17 @@
 
 ### :information_source: Project info
 
-- **Why I did this project:** It was part of the React section of Luiz Otávio Miranda's course about React and Next.js;
+- **Why I did this project:** It was part of the React section of Luiz Otávio
+  Miranda's course about React and Next.js;
 - **Core Technologies:** React and CSS;
 - **Secondary Technologies:** create-react-app and Docker (w/ compose);
-- **Description:** The goal of this project was to practice hooks and context API;
+- **Description:** The goal of this project was to practice hooks and context
+  API;
 
 ### :printer: Cloning the project and opening it on VSCode
 
-**Prerequisites:** You need to have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/) installed on your computer;
+**Prerequisites:** You need to have [Node.js](https://nodejs.org/en/) and
+[Git](https://git-scm.com/) installed on your computer;
 
 **1.** Clone the repository:
 
@@ -180,14 +183,17 @@
 
 ### :information_source: Informações do projeto
 
-- **Por que eu fiz esse projeto:** Foi parte da seção de React do curso de React e Next.js do Luiz Otávio Miranda;
-- **Tecnologias principais:** React (com componentes de classe, mas também componentes funcionais misturados para fins de aprendizado) e CSS;
+- **Por que eu fiz esse projeto:** Foi parte da seção de React do curso de React
+  e Next.js do Luiz Otávio Miranda;
+- **Tecnologias principais:** React (com componentes de classe, mas também
+  componentes funcionais misturados para fins de aprendizado) e CSS;
 - **Tecnologias secundárias:** create-react-app e Docker (com compose);
 - **Descrição:** O objetivo desse projeto foi praticar hooks e context API;
 
 ### :printer: Clonando o projeto e abrindo no VSCode
 
-**Pré-requisitos:** Você precisa ter o [Node.js](https://nodejs.org/en/) e o [Git](https://git-scm.com/) instalados no seu computador;
+**Pré-requisitos:** Você precisa ter o [Node.js](https://nodejs.org/en/) e o
+[Git](https://git-scm.com/) instalados no seu computador;
 
 **1.** Clone o repositório:
 
