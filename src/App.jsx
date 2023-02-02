@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
+import { Home } from './templates/Home';
 
 export default function App() {
   const [reverse, setReverse] = useState(false);
@@ -28,6 +29,8 @@ export default function App() {
         </p>
         <button onClick={() => handleCounter('+')}>+</button>
         <button onClick={() => handleCounter('-')}>-</button>
+
+        <Home />
       </header>
     </div>
   );
