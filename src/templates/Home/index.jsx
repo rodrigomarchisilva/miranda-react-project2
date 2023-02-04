@@ -1,4 +1,5 @@
 import { ColoredDiv } from '../../components/ColoredDiv';
+import { CompoundComponent } from '../../components/CompoundComponent';
 import { Counter } from '../../components/Counter';
 import { ErrorBoundary } from '../../components/ErrorBoundary';
 import { ErrorComponent } from '../../components/ErrorComponent';
@@ -9,6 +10,7 @@ import { PostsProvider } from '../../contexts/PostsProvider';
 export const Home = () => {
   return (
     <div>
+      <CompoundComponent />
       <ColoredDiv />
       <ErrorBoundary>
         <ErrorComponent />
