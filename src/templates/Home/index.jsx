@@ -1,15 +1,20 @@
-import { ColoredDiv } from '../../components/ColoredDiv';
-import { CompoundComponent } from '../../components/CompoundComponent';
-import { Counter } from '../../components/Counter';
-import { ErrorBoundary } from '../../components/ErrorBoundary';
-import { ErrorComponent } from '../../components/ErrorComponent';
-import { Posts } from '../../components/Posts';
-import { CounterProvider } from '../../contexts/CounterProvider';
-import { PostsProvider } from '../../contexts/PostsProvider';
+import { CounterProvider, PostsProvider } from '../../contexts';
+import {
+  ColoredDiv,
+  CompoundComponent,
+  CompoundContext,
+  Counter,
+  ErrorBoundary,
+  ErrorComponent,
+  LazyParent,
+  Posts,
+} from '../../components';
 
 export const Home = () => {
   return (
     <div>
+      <LazyParent />
+      <CompoundContext />
       <CompoundComponent />
       <ColoredDiv />
       <ErrorBoundary>
