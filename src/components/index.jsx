@@ -6,7 +6,8 @@ import { ErrorBoundary } from './ErrorBoundary';
 import { ErrorComponent } from './ErrorComponent';
 import { Loading } from './Loading';
 import { Posts } from './Posts';
-import { LazyParent } from './LazyParent';
+import { LazyLoading } from './LazyLoading';
+import { StateComponent } from './StateComponent';
 
 export {
   ColoredDiv,
@@ -17,5 +18,6 @@ export {
   ErrorComponent,
   Loading,
   Posts,
-  LazyParent,
+  LazyLoading,
+  StateComponent,
 };
