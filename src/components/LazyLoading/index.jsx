@@ -1,9 +1,9 @@
 import { useState, Suspense, lazy } from 'react';
 import { Loading } from '../Loading';
 
-const LazyComponent = lazy(() => import('../LazyComponent'));
+const LazyComponent = lazy(() => import('./LazyComponent'));
 
-export const LazyParent = () => {
+export const LazyLoading = () => {
   const [show, setShow] = useState(false);
   const toggle = () => setShow(!show);
   return (
